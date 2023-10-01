@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Poppins:ital,wght@1,600&family=Righteous&family=Roboto&family=Young+Serif&display=swap');
+
+
+/* Google font  */
+/* font-family: 'Lilita One',
+cursive;
+font-family: 'Lobster',
+cursive;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Righteous',
+cursive;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Young Serif',
+serif; */
+
+/* 
+font-family: 'Lilita One',
+cursive;
+font-family: 'Lobster',
+cursive;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Righteous',
+cursive;
+font-family: 'Roboto',
+sans-serif;
+font-family: 'Skranji',
+cursive;
+font-family: 'Young Serif',
+serif; */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(0deg ,white, rgb(162, 242, 245),rgb(76, 239, 245),rgb(0, 247, 255));
+}
+
+/* global class  */
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* header section  */
+header{
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    width: 100%;
+    padding: .5rem 1rem;
+    backdrop-filter: blur(3px);
+    background: transparent;
+}
+
+header .logo {
+    width: 3.6rem;
+}
+
+header .heading {
+    font-family: 'Young Serif';
+    font-size: 2.6rem;
+    margin-left: .5rem;
+}
+
+/* wall name section  */
+
+section .wall-box{
+    /* box-sizing: border-box; */
+    width: 100vw;
+    height: 80%;
+    justify-content: start;
+}
+
+.wall-box .mag-topic{
+    width: 40%;
+    margin-left:  8.7rem ;
+}
+
+.mag-topic .main-heading{
+    font-size: 6.3rem;
+    font-family: 'Lilita One',
+            cursive;
+            z-index: 1000;
+}
+.mag-topic .main-text{
+    font-size: 1rem;
+font-family: 'Lobster',
+        cursive;
+        z-index: 1000;
+}
+
+.cloud-code {
+    color: white;
+    font-size: 3rem;
+}
